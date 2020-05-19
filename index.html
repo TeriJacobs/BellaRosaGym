@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Bootstrap Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Bella Rosa</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"   rel="stylesheet"  type='text/css'>
+        <!--BOOSTRAP CSS-->
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!--FONT AWESOME-->
+        <script src="https://kit.fontawesome.com/dd5102ed39.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <div>
+                <div> <!--LOGO AND LOGIN NAVIGATION AND HEADER--> 
+                    <nav class="navbar navbar-expand-xl navbar navbar-dark bg-dark">
+                        <a class="navbar-brand" href="#"><span>Bella Rosa Gym</span></a>
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarMenu">
+                            <ul class="nav navbar-nav flex-fill justify-content-center">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#fittnessClasses">Classes</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="tradingBtn">Trading Times</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="studioBtn">Studio Schedule</a>
+                                </li>
+                              </ul>
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                  <a class="nav-link active" href="#">Log In</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+            </div>
+            <!--END OF NAV = HEADER-->
+            <!--START OF CONTENT-->
+            <div class="jumbotron">
+                <h1 class="display-4 my-5">Welcome!</h1>
+                <p class="lead my-5">Bella Rosa Lifestyle center offers a well equipt gym in the heart of Rosendal</p>
+                <hr class="my-4">
+                <p class="lead"> Offering more than just a gym - its a lifestyle</p>
+                <ul class="nav navbar-nav flex-fill justify-content-center">
+                    <li class="nav-item">Weight lifting</li>
+                    <li class="nav-item">Cross Fit</li>
+                    <li class="nav-item">Swimming Pool</li>
+                    <li class="nav-item">Classes</li>
+                    <li class="nav-item">Squash Court</li>
+                </ul>
+                <a class="btn btn-dark my-5" href="#seeMore" role="button">See More</a>
+            </div>
+            <!--OUr first line modal-->
+            <!--Original buttons for model-->
+            <!-- <div class="row mt-2 mb-2">
+                <div class="col">
+                    <button type="button" class="btn btn-outline-secondary" id="tradingBtn">Trading Times</button>
+                    <button type="button" class="btn btn-outline-secondary" id="studioBtn">Studio Schedule</button>
+
+                </div>
+            </div> -->
+
+            <div class="container-fluid my-5">
+                <div class="row">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/person-holding-barbell-841130.jpg" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/woman-doing-exercise-inside-gym.jpg" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/adult-athlete-body-bodybuilding-414029.jpg" alt="Third slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                </div>
+            </div>
+            <!--NEW CARD LAYOUT-->
+            <div class="container my-5" id="seeMore">
+                <div class="flex-fill justify-content-center">
+                    <h1 class="display-4"> Features and Activities</h1>
+                    <div clss="my-5">
+                        <p class="lead">
+                            Currently we offer classes ranging from group to private sessions.
+                        </p>
+                    </div>
+
+                </div>  
+            </div>
+
+            <div class="card mb-3 my-5">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img class="card-img-top" src="images/person_squashCourt.jpg" alt="squash court">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-header lead" style="background-color:#343a40; color:#fff;">Squash Court</div>
+                    <div class="card-body mt-5">
+                      <h5 class="card-title">Reserve your Session</h5>
+                      <p class="card-text">
+                        Whether its one-on-one or even doubes, schedule your squash court session, at no additional fee. The courts are accessible during operating hours.
+                        Each time slow is allocated an hour slot.
+                     </p>
+                      <a href="sqaushCourt.html" class="btn btn-dark">Book</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card mb-3 my-5">
+                <div class="row no-gutters">
+                  <div class="col-md-8">
+                    <div class="card-header lead" style="background-color:#343a40; color:#fff;" >Personal Trainers</div>
+                    <div class="card-body mt-5">
+                      <h5 class="card-title">Meet your fitness goals</h5>
+                      <p class="card-text p-3">
+                          Training on your own can be tough, and sometimes its best having motivation to get you fitness goal on track.
+                          We have a few trainers onsite that can assist you on your journey to getting fit and healthy.
+                     </p>
+                      <a href="trainers.html" class="btn btn-dark">See More</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <img class="card-img-top" src="images/personal_trainer.jpg" alt="personal trainer">
+                  </div>
+                </div>
+            </div>
+            <div class="card mb-3 my-5" id="fittnessClasses">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img class="card-img-top" src="images/woman_.jpg" alt="suggestions">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-header lead" style="background-color:#343a40; color:#fff;">Classes</div>
+                    <div class="card-body mt-5">
+                      <h5 class="card-title">Get fit while having fun</h5>
+                      <p class="card-text">
+                          Expert instructors provide a variety of group and private classes you can sign-up for. 
+                          From Pillates, to Ballroom danincg, Belly dancing and Judo. Adults and kids are welcomed
+                      </p>
+                      <a href="#" class="btn btn-dark">See More</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+
+            <!-- <div class="row align-items-center mt-5 mb-2 information-cards">
+                <div class="col-sm">
+                    <div class="card align-items-center">
+                        <div class="card-header my-2">
+                        Squash Court
+                        </div>
+                        <img class="card-img-top" src="images/person_squashCourt.jpg" alt="squash court">
+                        <div class="card-body">
+                        <h5 class="card-title">Reserve your hour session</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="sqaushCourt.html" class="btn btn-secondary">Book</a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-sm">
+                    <div class="card align-items-center">
+                        <div class="card-header my-2">
+                        Personal Trainers
+                        </div>
+                        <img class="card-img-top" src="images/personal_trainer.jpg" alt="personal trainer">
+                        <div class="card-body">
+                        <h5 class="card-title">Meet your fitness goals</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="trainers.html" class="btn btn-secondary">See More</a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-sm">
+                    <div class="card align-items-center" >
+                        <div class="card-header my-2 w-100">
+                            Classes
+                        </div>
+                        <img class="card-img-top" src="images/woman_.jpg" alt="suggestions">
+                        <div class="card-body">
+                        <h5 class="card-title">Get fit while having fun.</h5>
+                        <p class="card-text">Instructors will lead a fitness group, sign up below to see what we have on offer</p>
+                        <a href="#" class="btn btn-secondary">See More</a>
+                        </div>
+                    </div>
+                </div> 
+            </div> -->
+
+            <!--Trading Times-->
+            <div class="modal fade" id="OperatingSchedule" role="dialog">
+                <div class="modal-dialog modal-fluid modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="OperaringSceduleLabel">Operating Hours</h5>
+                            <button type="button" class="close" data-dissmiss="modal">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-dark" >
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Day</th>
+                                        <th scope="col">Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Monday - Friday</td>
+                                        <td>6am - 9pm</td>
+                                    </tr>
+                                        <td>Saturday</td>
+                                        <td>8am - 5pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sunday's & Publc Holidays</td>
+                                        <td>closed</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Studio Schedule-->
+            <div class="modal fade" id="studioSchedular" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="studioSchedularlabel">Studio Schedule</h5>
+                            <button type="button" class="close" data-dissmiss="modal">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-dark">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Class</th>
+                                        <th scope="col">Day</th>
+                                        <th scope="col">Hours</th>
+                                        <th scope="col">Sign Up</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Judo</td>
+                                        <td>Tuesday</td>
+                                        <td>6pm - 8pm</td>
+                                        <td><a href="joinStudioClass.html"><button type ="button" class="btn btn-sm btn-outline-info" id="joinClass">Join</a></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>belly dancing</td>
+                                        <td>Wednesday</td>
+                                        <td>6pm-8pm</td>
+                                        <td><a href="joinStudioClass.html"><button type ="button" class="btn btn-sm btn-outline-info" id="joinClass">Join</a></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Judo</td>
+                                        <td>Thursday</td>
+                                        <td>6pm-8pm</td>
+                                        <td><a href="joinStudioClass.html"><button type ="button" class="btn btn-sm btn-dark btn-outline-info" id="joinClass">Join</a></td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <footer>
+                <!-- Footer Elements -->
+                <div class="card my-0">
+                    <div class="card-header text-center">
+                    <!-- Social buttons -->
+                        <ul class="list-unstyled list-inline text-center">
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-fb mx-1" href="#"><i class="fab fa-facebook-f" style="color:#343a40;"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-tw mx-1" href="#"><i class="fab fa-twitter" style="color:#343a40;"> </i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-li mx-1" href="#"><i class="fab fa-linkedin-in" style="color:#343a40;"></i></a>
+                            </li>
+                        </ul>
+                        <!-- Social buttons -->
+                    </div>
+                    <!--ABOUT-->
+                    <div class="row" style="background-color:#343a40;">
+                        <div class="col-sm-4" style="color:#fff;">
+                            <div class="card-body text-left">
+                                <h4 class="card-title">About</h4>
+                                <p class="card-text" style="font-size: 14px;">Bella Rosa Lifestyle Center offers an on-site gym containing a swimming pool, sqaush court, personal fitness trainers and more</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                        <!--contact details and locations-->
+                        </div>
+                        <div class="col-sm-4" style="color:#fff;">
+                            <div class="card-body text-left">
+                                <h4 class="card-title">Contact</h4>
+                                <p class="card-text" style="font-size: 14px;">Connect with us via our details below as well as social media</p>
+                                <ul class="list-unstyled" style="font-size: 14px;">
+                                    <li class="my-1">
+                                        <i class="far fa-envelope"></i><a href="mailto:someone@yoursite.com" style="color: #fff;"> info@bellarosalifestyle.com</a>
+                                    </li>
+                                    <li class="my-1">
+                                        <i class="fas fa-phone-alt"></i><a href="#!" style="color: #fff;"> xxx xxx xxxx</a>
+                                    </li>
+                                    <li class="my-1">
+                                        <i class="fas fa-map-marker-alt"></i><a href="#!" style="color: #fff;"> Bella Rosa Lifestyle Centre, Durbanville Ave, Durbanville, Cape Town</a>
+                                    </li> 
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Copyright -->
+                    <div class="card-footer text-muted">
+                        <div class="footer-copyright text-center py-1">© 2020 Copyright:
+                            <a href="https://www.terijacobs.co.za" target="blank"> terijacobs.co.za</a>
+                        </div>
+                    </div>
+                    <!-- Copyright -->
+                </footer>
+                <!-- Footer -->
+        </div>
+        
+        <script src="JS/javascript.js" async defer></script>
+            <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
